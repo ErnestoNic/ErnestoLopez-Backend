@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "ca240437-99d8-4330-b7f7-36e70cc9c21d",
+		"name": "Fibonacci",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13442869"
+	},
+	"item": [
+		{
+			"name": "PeticionGET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "{{url}}/fibonacci?range=a",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "range",
+							"value": "a"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
